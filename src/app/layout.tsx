@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
 import style from "./layout.module.css";
 
 import "./globals.css";
+import { MainNav } from "./_components/MainNav/MainNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,20 +32,7 @@ export default function RootLayout({
           <h1>Next.js Rendering notes</h1>
         </header>
         <div className={style.mainDiv}>
-          <aside className={style.mainAside}>
-            <h3>Menu</h3>
-            <nav>
-              <Link href="/" className={style.navLink}>
-                Home
-              </Link>
-              <Link href="/server-side-render" className={style.navLink}>
-                Server Side Render
-              </Link>
-              <Link href="/client-side-render" className={style.navLink}>
-                Client Side Render
-              </Link>
-            </nav>
-          </aside>
+          <MainNav />
           <main className={style.mainContainer}>{children}</main>
         </div>
       </body>

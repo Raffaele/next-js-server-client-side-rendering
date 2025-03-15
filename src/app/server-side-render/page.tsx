@@ -10,6 +10,10 @@ const ServerSideRenderPage = () => {
     <div>
       <h2>Server Side Render components</h2>
       <p>By default Next.js render every page as Server Component</p>
+      <p>
+        The server side page is created and cashed automatically once during the
+        build of the app
+      </p>
       <DefaultServerSideComponent />
     </div>
   );

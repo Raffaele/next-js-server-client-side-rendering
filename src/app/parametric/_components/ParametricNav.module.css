@@ -1,0 +1,11 @@
+.nav {
+  padding-bottom: 1.5em;
+  border-bottom: 1px gray solid;
+  margin-bottom: 2em;
+}
+
+.link {
+  margin-right: 1em;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -2,25 +2,7 @@
   display: flex;
 }
 
-.mainAside {
-  padding: 0 1em;
-  background-color: rgba(200, 200, 50, 0.5);
-  padding: 1em;
-  border-radius: 5px;
-  width: 15%;
-  min-width: 180px;
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.navLink {
-  border-bottom: 1px gray solid;
-  padding-bottom: 0.3em;
-  margin-bottom: 0.3em;
-}
-
 .mainContainer {
   padding: 0 1em;
+  flex: 1;
 }
