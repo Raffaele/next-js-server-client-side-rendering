@@ -8,6 +8,9 @@ export const links = [{
   label: 'Client Side Render',
   href: '/client-side-render'
 }, {
-  label: 'Dynamically created',
+  label: 'Parametric: dynamically created',
   href: '/parametric/foo'
+}, {
+  label: 'Parametric: statically created',
+  href: '/static-params/foo'
 }];
