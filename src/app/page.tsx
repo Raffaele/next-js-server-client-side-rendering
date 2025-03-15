@@ -1,5 +1,9 @@
-import styles from "./page.module.css";
-
 export default function Home() {
-  return <div>Initial page</div>;
+  return (
+    <div>
+      <h2>
+        Server side render VS Client side render VS Static site generation
+      </h2>
+    </div>
+  );
 }
